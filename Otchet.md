@@ -22,19 +22,26 @@
 
 ### 2. Подготовка системы
 ```
+sudo ip addr add 192.168.100.xx/24 dev enp0s3
+sudo ip route add 192.168.100.0/24 dev enp0s3
+sudo ip link set enp0s3 up
+```
+```
 sudo apt update
-sudo apt upgrade -y
-sudo apt install gedit -y
+sudo apt install ufw -y
+sudo ufw enable
+sudo ufw deny from 192.168.100.11   # IP машины Б
+sudo ufw reload
 ```
 
-
+### 3. Пинг из А в Б и С
 <p align="center">
   <img src="Screenshots_1/photo_2026-03-10_23-51-07.jpg" alt="Создаем скрипт" width="70%">
   <br><br>
   <em>Создаем скрипт</em>
 </p>
 
-### 3. Создание скрипта
+### 4. Пинг из Б в А и С
 ```
 if [ $# -eq 0 ]; then
     echo "Welcome to ITMO University"
@@ -49,7 +56,14 @@ fi
   <em>Демонстрируем скрипт</em>
 </p>
 
+### 5. Пинг из С в А и Б
+<p align="center">
+  <img src="Screenshots_1/photo_2026-03-10_23-51-27.jpg" alt="="Демонстрируем работу скрипта" width="70%">
+  <br><br>
+  <em>Демонстрируем работу скрипта</em>
+</p>
 
+### 6. Общий скрин
 <p align="center">
   <img src="Screenshots_1/photo_2026-03-10_23-51-27.jpg" alt="="Демонстрируем работу скрипта" width="70%">
   <br><br>

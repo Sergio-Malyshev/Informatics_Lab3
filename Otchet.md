@@ -34,11 +34,11 @@ sudo ufw deny from 192.168.100.11   # IP машины Б
 sudo ufw reload
 ```
 
-### 3. Пинг из А в Б и С
+### 3. Пинг из А в Б
 <p align="center">
-  <img src="Screenshots_1/photo_2026-03-10_23-51-07.jpg" alt="Создаем скрипт" width="70%">
+  <img src="Screenshots_3/изАвБPNG.PNG" alt="Создаем скрипт" width="70%">
   <br><br>
-  <em>Создаем скрипт</em>
+  <em>Из A в Б</em>
 </p>
 
 ### 4. Пинг из Б в А и С
@@ -51,21 +51,21 @@ fi
 ```
 
 <p align="center">
-  <img src="Screenshots_1/photo_2026-03-10_23-51-22.jpg" alt="Демонстрируем скрипт" width="70%">
+  <img src="Screenshots_3/ИзБвАС.PNG" alt="Демонстрируем скрипт" width="70%">
   <br><br>
-  <em>Демонстрируем скрипт</em>
+  <em>из Б в А и С</em>
 </p>
 
 ### 5. Пинг из С в А и Б
 <p align="center">
-  <img src="Screenshots_1/photo_2026-03-10_23-51-27.jpg" alt="="Демонстрируем работу скрипта" width="70%">
+  <img src="Screenshots_3/ИзС.PNG" alt="="Демонстрируем работу скрипта" width="70%">
   <br><br>
-  <em>Демонстрируем работу скрипта</em>
+  <em>Из С</em>
 </p>
 
 ### 6. Общий скрин
 <p align="center">
-  <img src="Screenshots_1/photo_2026-03-10_23-51-27.jpg" alt="="Демонстрируем работу скрипта" width="70%">
+  <img src="Screenshots_3/ОбщийСкрин.PNG" alt="="Демонстрируем работу скрипта" width="70%">
   <br><br>
-  <em>Демонстрируем работу скрипта</em>
+  <em>Общий скрин</em>
 </p>
